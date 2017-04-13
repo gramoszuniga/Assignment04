@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!--This file represents the results of running a test suite-->
+<test-results name="E:\Now\Software Quality Assurance\Assignments\4\Assignment04.Tests\Assignment04.Tests\bin\Debug\Assignment04.Tests.dll" total="5" errors="0" failures="0" not-run="0" inconclusive="0" ignored="0" skipped="0" invalid="0" date="2017-04-05" time="10:42:12">
+  <environment nunit-version="2.6.4.14350" clr-version="2.0.50727.5485" os-version="Microsoft Windows NT 6.1.7601 Service Pack 1" platform="Win32NT" cwd="C:\Program Files (x86)\NUnit 2.6.4\bin" machine-name="2A207-C07" user="Gramoszuniga5711" user-domain="CONESTOGAC" />
+  <culture-info current-culture="en-US" current-uiculture="en-US" />
+  <test-suite type="Assembly" name="E:\Now\Software Quality Assurance\Assignments\4\Assignment04.Tests\Assignment04.Tests\bin\Debug\Assignment04.Tests.dll" executed="True" result="Success" success="True" time="4.400" asserts="0">
+    <results>
+      <test-suite type="Namespace" name="Assignment04" executed="True" result="Success" success="True" time="4.399" asserts="0">
+        <results>
+          <test-suite type="Namespace" name="Tests" executed="True" result="Success" success="True" time="4.398" asserts="0">
+            <results>
+              <test-suite type="TestFixture" name="Assignment04Test" executed="True" result="Success" success="True" time="4.397" asserts="0">
+                <results>
+                  <test-case name="Assignment04.Tests.Assignment04Test.Add_CorrectInputs_CorrectJDPowerPage" executed="True" result="Success" success="True" time="1.795" asserts="0" />
+                  <test-case name="Assignment04.Tests.Assignment04Test.Add_EmptyForm_NoSubmission" executed="True" result="Success" success="True" time="0.175" asserts="0" />
+                  <test-case name="Assignment04.Tests.Assignment04Test.Add_IncorrectPhone_IncorrectFormatErrorMessage" executed="True" result="Success" success="True" time="0.577" asserts="0" />
+                  <test-case name="Assignment04.Tests.Assignment04Test.Search_CorrectInput_ResultShown" executed="True" result="Success" success="True" time="0.757" asserts="0" />
+                  <test-case name="Assignment04.Tests.Assignment04Test.Search_IncorrectInput_NoResultsFoundMessage" executed="True" result="Success" success="True" time="0.173" asserts="0" />
+                </results>
+              </test-suite>
+            </results>
+          </test-suite>
+        </results>
+      </test-suite>
+    </results>
+  </test-suite>
+</test-results>

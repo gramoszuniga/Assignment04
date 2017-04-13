@@ -1,0 +1,62 @@
+<!--
+    search.html
+    Assignment04
+
+    Revision History
+        Gonzalo Ramos Zúñiga, 2017.04.03: Created
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>GRAssignment04</title>
+    <script src="js/jquery-3.2.0.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/jquery.validate.js"></script>
+    <script src="js/GRAssignment04.js"></script>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/GRAssignment04.css">
+</head>
+<body>
+<div class="navbar navbar-inverse">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a href="index.html" class="navbar-brand">GRAssignment04</a>
+        </div>
+        <div class="collapse navbar-collapse" id="myNavbar">
+            <ul class="nav navbar-nav">
+                <li><a href="new.html">New</a></li>
+                <li><a href="search.html">Search</a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+<div class="container">
+    <div class="page-header">
+        <h1>GRAssignment04</h1>
+    </div>
+    <div class="form-inline">
+        <div class="form-group">
+            <input type="text" class="form-control" id="txtSearch" name="txtSearch"
+                   placeholder="Make, model or year...">
+            <button type="button" class="btn btn-success" id="btnSearch"><span
+                    class="glyphicon glyphicon-search"></span>
+            </button>
+        </div>
+    </div>
+    <div id="divSearch"></div>
+    <a href="index.html" class="btn btn-success pull-right"><span class="glyphicon glyphicon-home"></span></a>
+</div>
+<div class="footer">
+    <div class="container">
+        <p class="text-center">&copy; 2017 Gonzalo Ramos Zúñiga</p>
+    </div>
+</div>
+</body>
+</html>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<VisualState xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ShowCheckBoxes="false">
+  <TopNode>[0-1006]E:\Now\Software Quality Assurance\Assignments\4\Assignment04.Tests\Assignment04.Tests\bin\Debug\Assignment04.Tests.dll</TopNode>
+  <SelectedNode>[0-1006]E:\Now\Software Quality Assurance\Assignments\4\Assignment04.Tests\Assignment04.Tests\bin\Debug\Assignment04.Tests.dll</SelectedNode>
+  <ExcludeCategories>false</ExcludeCategories>
+  <Nodes>
+    <Node UniqueName="[0-1006]E:\Now\Software Quality Assurance\Assignments\4\Assignment04.Tests\Assignment04.Tests\bin\Debug\Assignment04.Tests.dll" Expanded="true" />
+    <Node UniqueName="[0-1007]Assignment04" Expanded="true" />
+    <Node UniqueName="[0-1008]Assignment04.Tests" Expanded="true" />
+    <Node UniqueName="[0-1000]Assignment04.Tests.Assignment04Test" Expanded="true" />
+  </Nodes>
+</VisualState>

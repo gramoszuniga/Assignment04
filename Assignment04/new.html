@@ -1,0 +1,91 @@
+<!--
+    new.html
+    Assignment04
+
+    Revision History
+        Gonzalo Ramos Zúñiga, 2017.03.29: Created
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>GRAssignment04</title>
+    <script src="js/jquery-3.2.0.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/jquery.validate.js"></script>
+    <script src="js/GRAssignment04.js"></script>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/GRAssignment04.css">
+</head>
+<body>
+<div class="navbar navbar-inverse">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a href="index.html" class="navbar-brand">GRAssignment04</a>
+        </div>
+        <div class="collapse navbar-collapse" id="myNavbar">
+            <ul class="nav navbar-nav">
+                <li><a href="new.html">New</a></li>
+                <li><a href="search.html">Search</a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+<div class="container">
+    <div class="page-header">
+        <h1>GRAssignment04</h1>
+    </div>
+    <form id="frmAdd">
+        <div class="form-group">
+            <label for="txtSeller">Seller</label>
+            <input type="text" class="form-control" id="txtSeller" name="txtSeller">
+        </div>
+        <div class="form-group">
+            <label for="txtAddress">Address</label>
+            <input type="text" class="form-control" id="txtAddress" name="txtAddress">
+        </div>
+        <div class="form-group">
+            <label for="txtCity">City</label>
+            <input type="text" class="form-control" id="txtCity" name="txtCity">
+        </div>
+        <div class="form-group">
+            <label for="txtPhone">Phone</label>
+            <input type="text" class="form-control" id="txtPhone" name="txtPhone">
+        </div>
+        <div class="form-group">
+            <label for="txtEmail">E-mail</label>
+            <input type="text" class="form-control" id="txtEmail" name="txtEmail">
+        </div>
+        <div class="form-group">
+            <label for="txtMake">Make</label>
+            <input type="text" class="form-control" id="txtMake" name="txtMake">
+        </div>
+        <div class="form-group">
+            <label for="txtModel">Model</label>
+            <input type="text" class="form-control" id="txtModel" name="txtModel">
+        </div>
+        <div class="form-group">
+            <label for="txtYear">Year</label>
+            <input type="text" class="form-control" id="txtYear" name="txtYear">
+        </div>
+        <div class="btn-group pull-right">
+            <a href="index.html" class="btn btn-danger"><span
+                    class="glyphicon glyphicon-remove"></span></a>
+            <button type="button" class="btn btn-success" id="btnAdd"><span
+                    class="glyphicon glyphicon-ok"></span></button>
+        </div>
+    </form>
+</div>
+<div class="footer">
+    <div class="container">
+        <p class="text-center">&copy; 2017 Gonzalo Ramos Zúñiga</p>
+    </div>
+</div>
+</body>
+</html>
